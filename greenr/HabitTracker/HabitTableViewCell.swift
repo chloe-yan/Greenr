@@ -71,18 +71,12 @@ class HabitTableViewCell: UITableViewCell {
             }
             else if habit.currentStreak == 1 {
                 self.cellStreakLabel.text = "Streak: \(habit.currentStreak) day"
-                print("CURRENT STREAK = 1, ISYESTERDAY: \(habit.lastCompletionDate?.isYesterday)")
-                print("CURRENT STREAK = 1, ISTODAY: \(habit.lastCompletionDate?.isToday)")
             }
             else if habit.currentStreak >= 1 {
                 self.cellStreakLabel.text = "Streak: \(habit.currentStreak) days"
-                print("CURRENT STREAK >= 1, ISYESTERDAY: \(habit.lastCompletionDate?.isYesterday)")
-                print("CURRENT STREAK >= 1, ISTODAY: \(habit.lastCompletionDate?.isToday)")
             }
             else {
                 self.cellStreakLabel.text = "Streak: 0 days"
-                print("CURRENT STREAK = 0, ISYESTERDAY: \(habit.lastCompletionDate?.isYesterday)")
-                print("CURRENT STREAK = 0, ISTODAY: \(habit.lastCompletionDate?.isToday)")
         }
         if habit.hasCompletedForToday {
             self.accessoryType = .checkmark
