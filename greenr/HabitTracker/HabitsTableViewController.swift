@@ -9,15 +9,6 @@
 import UIKit
 import GameKit
 
-/*let habitList: [Habit] = [
-    Habit(title: "Commute by walking/biking"),
-    Habit(title: "Use a resuable water bottle"),
-    Habit(title: "Reduce meat consumption"),
-    Habit(title: "Reduce dairy consumption"),
-    Habit(title: "Ditch plastic packaging"),
-    Habit(title: "Purchase locally grown foods")
-]*/
-
 var myIndex = 0
 
 class HabitsTableViewController: UITableViewController, GKGameCenterControllerDelegate {
@@ -58,6 +49,7 @@ class HabitsTableViewController: UITableViewController, GKGameCenterControllerDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        persistence.setNeedsToReloadHabits()
         tableView.register(HabitTableViewCell.nib, forCellReuseIdentifier: HabitTableViewCell.identifier)
         leaderboardButton.layer.cornerRadius = 18
         personalHabitsButton.layer.cornerRadius = 18
