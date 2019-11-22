@@ -4,10 +4,9 @@
 //
 //  Created by Chloe Yan on 10/30/19.
 //  Copyright © 2019 Chloe Yan. All rights reserved.
-// asdf asdf asdf 
+//
 
 import UIKit
-
 
 class PersonalHabitsTableViewController: UITableViewController {
     
@@ -44,12 +43,12 @@ class PersonalHabitsTableViewController: UITableViewController {
 }
 
 extension PersonalHabitsTableViewController {
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-  override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    // Allows users to delete habits
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         switch editingStyle {
         case .delete:
             let habitIndexToDelete = indexPath.row
@@ -65,6 +64,7 @@ extension PersonalHabitsTableViewController {
         performSegue(withIdentifier: "personalHabitSegue", sender: self)
     }
     
+    // Sends information specific to the habit clicked
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "personalHabitSegue" {
             let indexPath: IndexPath = self.tableView.indexPathForSelectedRow!
@@ -80,6 +80,7 @@ extension PersonalHabitsTableViewController {
     }
 }
 
+// Alerts users with a message upon deleting a habit
 extension UIAlertController {
     convenience init(habitTitle: String, confirmHandler: @escaping () -> Void) {
         self.init(title: "Delete Habit", message: "Are you sure you want to delete \(habitTitle)?", preferredStyle: .actionSheet)
