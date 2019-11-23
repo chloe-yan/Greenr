@@ -16,7 +16,7 @@ struct PersistenceLayer {
         Habit(title: "Use a resuable water bottle"),
         Habit(title: "Reduce meat consumption"),
         Habit(title: "Reduce dairy consumption"),
-        Habit(title: "Ditch plaxstic packaging"),
+        Habit(title: "Ditch plastic packaging"),
         Habit(title: "Purchase locally grown foods")
     ]
     
