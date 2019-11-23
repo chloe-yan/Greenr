@@ -11,6 +11,7 @@ import UIKit
 var selectedVolunteerFeedURL: String = ""
 var myVolunteerFeed : NSArray = []
 var VolunteerURL: URL!
+var counter = 0
 
 class VolunteerTableViewController: UITableViewController, XMLParserDelegate {
     
@@ -18,6 +19,7 @@ class VolunteerTableViewController: UITableViewController, XMLParserDelegate {
     var stateName: String?
     
     let object = VolunteerTableViewCell()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = UITableView.automaticDimension
@@ -26,11 +28,18 @@ class VolunteerTableViewController: UITableViewController, XMLParserDelegate {
         tableView.register(VolunteerTableViewCell.self, forCellReuseIdentifier: "Cell")
         self.tableView.dataSource = self
         self.tableView.delegate = self
-
-        loadData()
+        print("COUNTER: \(counter)")
+        if (counter < 1) {
+            locationLoadData()
+            counter += 1
+            print("COUNTER CHECK")
+        }
     }
     
-    func loadData() {
+    func locationLoadData() {
+        print("LOADDATA \(cityName ?? "San Francisco")")
+        print(cityName)
+        print("CITY NAME COMPONENTS: \(cityName?.components(separatedBy: " "))")
         let cityNameArray = cityName!.components(separatedBy: " ")
         var customString = ""
         if (cityNameArray.count > 1) {
@@ -41,7 +50,20 @@ class VolunteerTableViewController: UITableViewController, XMLParserDelegate {
             customString.remove(at: customString.index(before: customString.endIndex))
         }
         customString += "%2C+"
-        customString += stateName!
+        var stateNameArray = Array(stateName!)
+        var updatedStateName = ""
+        var stateNameArrayLength = stateNameArray.count
+        for i in 0...stateNameArrayLength-1 {
+            if (stateNameArray[i] == " ") {
+                stateNameArray.remove(at: i)
+                print(stateNameArrayLength)
+                stateNameArrayLength -= 1
+            }
+            else {
+                updatedStateName += String(stateNameArray[i])
+            }
+        }
+        customString += updatedStateName
         customString += "%2C+USA"
         var myURL = "https://www.volunteermatch.org/search/index.jsp?rss=true&aff=&includeOnGoing=true&r=20.0&categories=13&l="
         myURL += customString
@@ -55,7 +77,7 @@ class VolunteerTableViewController: UITableViewController, XMLParserDelegate {
         // XmlParserManager instance/object/variable.
         let myParser : XmlParserManager = XmlParserManager().initWithURL(data) as! XmlParserManager
 
-        // Put feed in array.
+        // Put feed in array
         feedImgs = myParser.img as [AnyObject]
         myFeed = myParser.feeds
         tableView.reloadData()

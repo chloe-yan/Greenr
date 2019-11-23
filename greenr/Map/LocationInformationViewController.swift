@@ -27,6 +27,8 @@ class LocationInformationViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+        counter = 0
+        print("SETTING THE COUNTER: \(counter)")
         super.viewDidLoad()
         searchButton.layer.cornerRadius = 18
     }
@@ -44,6 +46,8 @@ class LocationInformationViewController: UIViewController {
         if let vtvc = segue.destination as? VolunteerTableViewController {
             vtvc.cityName = nameOfCity
             vtvc.stateName = nameOfState
+            counter = 0
+            print("SETTING THE COUNTER: \(counter)")
         }
     }
 }
