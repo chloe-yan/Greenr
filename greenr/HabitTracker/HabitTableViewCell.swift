@@ -78,13 +78,13 @@ class HabitTableViewCell: UITableViewCell {
             else {
                 self.cellStreakLabel.text = "Streak: 0 days"
         }
+    }
         if habit.hasCompletedForToday {
             self.accessoryType = .checkmark
         }
         else {
             self.accessoryType = .disclosureIndicator
         }
-    }
     }
     
     func configureStreakUpdates(_ habit: Habit) {
