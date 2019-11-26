@@ -13,6 +13,7 @@ class HabitTableViewCell: UITableViewCell {
     @IBOutlet weak var cellTitleLabel: UILabel!
     @IBOutlet weak var cellStreakLabel: UILabel!
     
+    let globalHabitList = ["Commute by walking/biking", "Use a resuable water bottle", "Reduce meat consumption", "Reduce dairy consumption", "Ditch plastic packaging", "Purchase locally grown foods"]
     
     static let identifier = "habit cell"
     static var nib: UINib {
@@ -28,7 +29,7 @@ class HabitTableViewCell: UITableViewCell {
     }
     
     var persistence = PersistenceLayer()
-    let personalPersistence = PersonalPersistenceLayer()
+    var personalPersistence = PersonalPersistenceLayer()
     
     func configure(_ habit: Habit) {
         shadowAndBorderForCell(yourTableViewCell: HabitTableViewCell())
@@ -66,7 +67,12 @@ class HabitTableViewCell: UITableViewCell {
             let numOfDaysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
             if (currentDay > (lastCompletionDateDay + 1)) || (currentMonth > lastCompletionDateMonth && (lastCompletionDateDay <= (currentDay-2) + numOfDaysInMonth[lastCompletionDateMonth-1])) || (currentYear > lastCompletionDateYear && (lastCompletionDateDay <= (currentDay-2) + numOfDaysInMonth[lastCompletionDateMonth-1])) {
                 print("RESETTING BECAUSE LOST STREAK")
-                persistence.resetHabit(habit)
+                if (!(self.cellStreakLabel.text == "Streak: 0 days") && globalHabitList.contains(habit.title)) {
+                    persistence.resetHabit(habit)
+                }
+                else if (!(self.cellStreakLabel.text == "Streak: 0 days") && !(globalHabitList.contains(habit.title))) {
+                    personalPersistence.resetHabit(habit)
+                }
                 self.cellStreakLabel.text = "Streak: \(habit.currentStreak) days"
             }
             else if habit.currentStreak == 1 {

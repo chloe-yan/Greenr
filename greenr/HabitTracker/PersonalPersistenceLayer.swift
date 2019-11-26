@@ -14,6 +14,10 @@ struct PersonalPersistenceLayer {
     private(set) var habits: [Habit] = [
     ]
     
+    // Stores titles of habits for easy access
+    private(set) var habitTitles: [String] = [
+    ]
+    
     private static let userDefaultsHabitsKeyValue = "PERSONAL_HABITS_ARRAY"
     
     init() {
@@ -34,6 +38,7 @@ struct PersonalPersistenceLayer {
     mutating func createNewHabit(name: String) -> Habit {
         let newHabit = Habit(title: name)
         self.habits.append(newHabit)
+        self.habitTitles.append(name)
         self.saveHabits()
         return newHabit
     }
@@ -50,6 +55,7 @@ struct PersonalPersistenceLayer {
     // Deletes habits
     mutating func delete(_ habitIndex: Int) {
         self.habits.remove(at: habitIndex)
+        self.habitTitles.remove(at: habitIndex)
         self.saveHabits()
     }
     
@@ -89,5 +95,22 @@ struct PersonalPersistenceLayer {
     }
     mutating func setNeedsToReloadHabits() {
         self.loadHabits()
+    }
+    
+    // Resets current streak of habit to 0
+    mutating func resetHabit(_ habit: Habit) -> Habit {
+        print("IN THE RESET HABIT: \(habit.lastCompletionDate)")
+        var updatedHabit = habit
+        updatedHabit.currentStreak = 0
+
+        let indexValue = habitTitles.firstIndex(of: habit.title)
+        print("(Personal habits) Index value: \(indexValue)")
+        if (indexValue != nil) {
+            self.habits[indexValue!] = updatedHabit
+        }
+        self.saveHabits()
+        self.loadHabits()
+        
+        return updatedHabit
     }
 }
