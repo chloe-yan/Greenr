@@ -60,7 +60,7 @@ struct PersistenceLayer {
             self.habits[indexValue!] = updatedHabit
         }
         self.saveHabits()
-        //self.loadHabits()
+        self.loadHabits()
         
         return updatedHabit
     }
