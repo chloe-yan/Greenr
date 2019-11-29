@@ -626,7 +626,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hK5-Xv-twg">
-                                <rect key="frame" x="15" y="20" width="345" height="614"/>
+                                <rect key="frame" x="15" y="20" width="345" height="530"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Help the Environment: Discover Volunteering Opportunities" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63w-FB-ghH">
                                         <rect key="frame" x="0.0" y="0.0" width="345" height="126"/>
@@ -634,14 +634,29 @@
                                         <color key="textColor" red="0.2901960784" green="0.41960784309999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="ex. California" backgroundImage="SearchBarBackground" scopeBarBackgroundImage="ShadowImage" translatesAutoresizingMaskIntoConstraints="NO" id="Q9v-FQ-D7N">
+                                        <rect key="frame" x="0.0" y="146" width="345" height="56"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <scopeButtonTitles>
+                                            <string>Title</string>
+                                            <string>Title</string>
+                                        </scopeButtonTitles>
+                                    </searchBar>
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="mAk-JB-kqt">
+                                        <rect key="frame" x="0.0" y="222" width="345" height="56"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AJ-51-n2F">
-                                        <rect key="frame" x="0.0" y="146" width="345" height="24"/>
+                                        <rect key="frame" x="0.0" y="298" width="345" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4n-vG-TYw">
-                                        <rect key="frame" x="0.0" y="190" width="345" height="34"/>
+                                        <rect key="frame" x="0.0" y="342" width="345" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="City:   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIw-fv-fJ3">
                                                 <rect key="frame" x="0.0" y="0.0" width="49" height="34"/>
@@ -658,7 +673,7 @@
                                         <viewLayoutGuide key="safeArea" id="96f-aU-gHZ"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIY-ER-bc6">
-                                        <rect key="frame" x="0.0" y="244" width="345" height="34"/>
+                                        <rect key="frame" x="0.0" y="396" width="345" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Abbreviation:   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxu-hk-FLM" userLabel="State Abbreviation:">
                                                 <rect key="frame" x="0.0" y="0.0" width="173.5" height="34"/>
@@ -674,7 +689,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAU-bS-dxc">
-                                        <rect key="frame" x="0.0" y="298" width="345" height="36"/>
+                                        <rect key="frame" x="0.0" y="450" width="345" height="36"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <state key="normal" title="Search!">
@@ -684,11 +699,8 @@
                                             <action selector="searchButtonTapped:" destination="U1f-gX-TQc" eventType="touchUpInside" id="5az-JJ-xmH"/>
                                         </connections>
                                     </button>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWP-zV-x9W">
-                                        <rect key="frame" x="0.0" y="354" width="345" height="216"/>
-                                    </pickerView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcB-tc-LAO">
-                                        <rect key="frame" x="0.0" y="590" width="345" height="24"/>
+                                        <rect key="frame" x="0.0" y="506" width="345" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -708,10 +720,11 @@
                     <navigationItem key="navigationItem" title="E N T E R   L O C A T I O N   I N F O" id="286-HW-XPV"/>
                     <connections>
                         <outlet property="cityName" destination="upN-76-fnf" id="pFa-Vz-29d"/>
+                        <outlet property="citySearchBar" destination="mAk-JB-kqt" id="LXV-IM-aDO"/>
                         <outlet property="errorMessageLabel" destination="RcB-tc-LAO" id="N0u-lZ-ayy"/>
                         <outlet property="searchButton" destination="hAU-bS-dxc" id="gwE-D6-8B6"/>
                         <outlet property="stateName" destination="hTv-XH-Ufo" id="yv0-Xn-p4c"/>
-                        <outlet property="statePickerView" destination="LWP-zV-x9W" id="fCS-Zq-805"/>
+                        <outlet property="stateSearchBar" destination="Q9v-FQ-D7N" id="I56-Q6-HyN"/>
                         <segue destination="fvL-mn-j96" kind="show" identifier="searchSegue" id="cGv-aK-mkl"/>
                     </connections>
                 </viewController>
@@ -721,6 +734,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SearchBarBackground" width="9.5" height="4.5"/>
+        <image name="ShadowImage" width="124" height="51"/>
         <image name="arrow.clockwise" catalog="system" width="56" height="64"/>
         <image name="book.fill" catalog="system" width="64" height="50"/>
         <image name="doc.text.fill" catalog="system" width="56" height="64"/>

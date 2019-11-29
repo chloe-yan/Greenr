@@ -6,14 +6,68 @@
 //  Copyright © 2019 Chloe Yan. All rights reserved.
 
 import UIKit
+import DropDown
 
 var nameOfCity: String = ""
 var nameOfState: String = ""
 
-class LocationInformationViewController: UIViewController {
+class LocationInformationViewController: UIViewController, UISearchBarDelegate {
     
-    @IBOutlet weak var statePickerView: UIPickerView!
-    var statePickerViewData: [String] = [String]()
+    @IBOutlet weak var stateSearchBar: UISearchBar!
+    var listOfStates = ["Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "Florida",
+    "Georgia",
+    "Hawaii",
+    "Idaho",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Maryland",
+    "Massachusetts",
+    "Michigan",
+    "Minnesota",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nebraska",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New Mexico",
+    "New York",
+    "North Carolina",
+    "North Dakota",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "Rhode Island",
+    "South Carolina",
+    "South Dakota",
+    "Tennessee",
+    "Texas",
+    "Utah",
+    "Vermont",
+    "Virginia",
+    "Washington",
+    "West Virginia",
+    "Wisconsin",
+    "Wyoming"]
+    var filteredStates: [String] = []
+    var dropButton = DropDown()
+    
+    @IBOutlet weak var citySearchBar: UISearchBar!
     @IBOutlet weak var cityName: UITextField!
     @IBOutlet weak var stateName: UITextField!
     @IBOutlet weak var errorMessageLabel: UILabel!
@@ -33,78 +87,51 @@ class LocationInformationViewController: UIViewController {
         print("SETTING THE COUNTER: \(counter)")
         super.viewDidLoad()
         searchButton.layer.cornerRadius = 18
-    }
-   /*     self.statePickerView.delegate = self as! UIPickerViewDelegate
-        self.statePickerView.dataSource = self as! UIPickerViewDataSource
-        statePickerViewData = ["Alaska",
-        "Alabama",
-        "Arkansas",
-        "American Samoa",
-        "Arizona",
-        "California",
-        "Colorado",
-        "Connecticut",
-        "District of Columbia",
-        "Delaware",
-        "Florida",
-        "Georgia",
-        "Guam",
-        "Hawaii",
-        "Iowa",
-        "Idaho",
-        "Illinois",
-        "Indiana",
-        "Kansas",
-        "Kentucky",
-        "Louisiana",
-        "Massachusetts",
-        "Maryland",
-        "Maine",
-        "Michigan",
-        "Minnesota",
-        "Missouri",
-        "Mississippi",
-        "Montana",
-        "North Carolina",
-        "North Dakota",
-        "Nebraska",
-        "New Hampshire",
-        "New Jersey",
-        "New Mexico",
-        "Nevada",
-        "New York",
-        "Ohio",
-        "Oklahoma",
-        "Oregon",
-        "Pennsylvania",
-        "Puerto Rico",
-        "Rhode Island",
-        "South Carolina",
-        "South Dakota",
-        "Tennessee",
-        "Texas",
-        "Utah",
-        "Virginia",
-        "Virgin Islands",
-        "Vermont",
-        "Washington",
-        "Wisconsin",
-        "West Virginia",
-        "Wyoming"]
+        filteredStates = listOfStates
+        dropButton.anchorView = stateSearchBar
+        dropButton.bottomOffset = CGPoint(x: 0, y:(dropButton.anchorView?.plainView.bounds.height)!)
+        DropDown.appearance().backgroundColor = UIColor.white
+        DropDown.appearance().textFont = UIFont(name: "Poppins-Regular", size: 14)!
+        DropDown.appearance().textColor = UIColor.darkGray
+        DropDown.appearance().cellHeight = 35
+        DropDown.appearance().cornerRadius = 10
+        DropDown.appearance().selectionBackgroundColor = UIColor.lightGray
+        dropButton.direction = .bottom
+        dropButton.selectionAction = {[unowned self] (index: Int, item: String) in
+            print("SELECTED ITEM: \(item) INDEX: \(index)")
+            self.stateSearchBar.text = self.dropButton.selectedItem
+        }
+        stateSearchBar.delegate = self
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        filteredStates = searchText.isEmpty ? listOfStates: listOfStates.filter({ (dat) -> Bool in dat.range(of: searchText, options: .caseInsensitive) != nil
+        })
+        dropButton.dataSource = filteredStates
+        dropButton.show()
     }
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        searchBar.setShowsCancelButton(true, animated: true)
+        for ob: UIView in ((stateSearchBar.subviews[0])).subviews { //used to be subview
+            if let z = ob as? UIButton {
+                let btn: UIButton = z
+                btn.setTitleColor(UIColor.white, for: .normal)
+            }
+        }
     }
     
-    func pickerView(_pickerView: UIPickerView, numberOfRowsInComponent component: Int) {
-        
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        searchBar.showsCancelButton = false
     }
-    */
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        searchBar.text = ""
+        filteredStates = listOfStates
+        dropButton.hide()
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
         super.touchesBegan(touches, with: event)

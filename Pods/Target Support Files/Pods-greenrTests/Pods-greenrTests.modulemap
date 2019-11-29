@@ -1,0 +1,6 @@
+framework module Pods_greenrTests {
+  umbrella header "Pods-greenrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
