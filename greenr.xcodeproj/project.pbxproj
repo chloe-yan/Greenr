@@ -80,8 +80,6 @@
 		D1F9A942239048850030ABD9 /* Pods-greenr-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90B239048850030ABD9 /* Pods-greenr-acknowledgements.plist */; };
 		D1F9A943239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90C239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist */; };
 		D1F9A944239048850030ABD9 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90D239048850030ABD9 /* Manifest.lock */; };
-		D1F9A9552390497D0030ABD9 /* Pods-greenr.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A94F2390497C0030ABD9 /* Pods-greenr.release.xcconfig */; };
-		D1F9A9562390497D0030ABD9 /* Pods-greenr.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A9502390497D0030ABD9 /* Pods-greenr.debug.xcconfig */; };
 		E0DBFE28CBED5CEED529F090 /* Pods_greenrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1965D8490A957D3C879457B0 /* Pods_greenrTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -712,7 +710,6 @@
 				D1520E05234EF7EA002DEA5C /* LaunchScreen.storyboard in Resources */,
 				D1F9A928239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist in Resources */,
 				D1357598236BC0B000DBCAFF /* Poppins-SemiBold.ttf in Resources */,
-				D1F9A9562390497D0030ABD9 /* Pods-greenr.debug.xcconfig in Resources */,
 				D1F9A93D239048850030ABD9 /* Pods-greenr-frameworks.sh in Resources */,
 				D1F9A937239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist in Resources */,
 				D1F9A92C239048850030ABD9 /* Pods-greenrTests-Info.plist in Resources */,
@@ -738,7 +735,6 @@
 				D1357596236BC0AC00DBCAFF /* Poppins-Regular.ttf in Resources */,
 				D1357597236BC0AE00DBCAFF /* Poppins-Medium.ttf in Resources */,
 				D1CBD1732351B7750061C815 /* Main.storyboard in Resources */,
-				D1F9A9552390497D0030ABD9 /* Pods-greenr.release.xcconfig in Resources */,
 				D1F9A934239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh in Resources */,
 				D1F9A93F239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist in Resources */,
 				D1F9A943239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist in Resources */,
