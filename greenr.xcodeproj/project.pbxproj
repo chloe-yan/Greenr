@@ -46,40 +46,6 @@
 		D1E4052A23682088002F4A8B /* VolunteerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4052923682088002F4A8B /* VolunteerTableViewCell.swift */; };
 		D1E4052C236821A7002F4A8B /* VolunteerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4052B236821A7002F4A8B /* VolunteerTableViewController.swift */; };
 		D1E40530236826A3002F4A8B /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4052F236826A3002F4A8B /* LocationInformationViewController.swift */; };
-		D1F9A91C239048850030ABD9 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8D2239048850030ABD9 /* DropDownCell.xib */; };
-		D1F9A91D239048850030ABD9 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8D4239048850030ABD9 /* DPDKeyboardListener.swift */; };
-		D1F9A91E239048850030ABD9 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8D5239048850030ABD9 /* DPDConstants.swift */; };
-		D1F9A91F239048850030ABD9 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8D6239048850030ABD9 /* DPDUIView+Extension.swift */; };
-		D1F9A920239048850030ABD9 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8D8239048850030ABD9 /* DropDown.swift */; };
-		D1F9A921239048850030ABD9 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8D9239048850030ABD9 /* DropDownCell.swift */; };
-		D1F9A922239048850030ABD9 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8DA239048850030ABD9 /* DropDown+Appearance.swift */; };
-		D1F9A923239048850030ABD9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8DB239048850030ABD9 /* LICENSE */; };
-		D1F9A924239048850030ABD9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8DC239048850030ABD9 /* README.md */; };
-		D1F9A925239048850030ABD9 /* DropDown-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8E2239048850030ABD9 /* DropDown-Info.plist */; };
-		D1F9A926239048850030ABD9 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8E4239048850030ABD9 /* DropDown-dummy.m */; };
-		D1F9A928239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8EB239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist */; };
-		D1F9A92A239048850030ABD9 /* Pods-greenrTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8ED239048850030ABD9 /* Pods-greenrTests-dummy.m */; };
-		D1F9A92B239048850030ABD9 /* Pods-greenrTests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8EE239048850030ABD9 /* Pods-greenrTests-acknowledgements.markdown */; };
-		D1F9A92C239048850030ABD9 /* Pods-greenrTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8EF239048850030ABD9 /* Pods-greenrTests-Info.plist */; };
-		D1F9A92E239048850030ABD9 /* Pods-greenr-greenrUITests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8F2239048850030ABD9 /* Pods-greenr-greenrUITests-Info.plist */; };
-		D1F9A92F239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8F3239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.markdown */; };
-		D1F9A931239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8F5239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist */; };
-		D1F9A932239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8F6239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.plist */; };
-		D1F9A934239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8F9239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh */; };
-		D1F9A935239048850030ABD9 /* Pods-greenr-greenrUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A8FA239048850030ABD9 /* Pods-greenr-greenrUITests-dummy.m */; };
-		D1F9A936239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8FC239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist */; };
-		D1F9A937239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8FD239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist */; };
-		D1F9A938239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A8FE239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist */; };
-		D1F9A93A239048850030ABD9 /* Pods-greenr-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A901239048850030ABD9 /* Pods-greenr-acknowledgements.markdown */; };
-		D1F9A93B239048850030ABD9 /* Pods-greenr-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A903239048850030ABD9 /* Pods-greenr-Info.plist */; };
-		D1F9A93C239048850030ABD9 /* Pods-greenr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9A904239048850030ABD9 /* Pods-greenr-dummy.m */; };
-		D1F9A93D239048850030ABD9 /* Pods-greenr-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A905239048850030ABD9 /* Pods-greenr-frameworks.sh */; };
-		D1F9A93E239048850030ABD9 /* Pods-greenr-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A907239048850030ABD9 /* Pods-greenr-frameworks-Debug-output-files.xcfilelist */; };
-		D1F9A93F239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A908239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist */; };
-		D1F9A941239048850030ABD9 /* Pods-greenr-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90A239048850030ABD9 /* Pods-greenr-frameworks-Release-output-files.xcfilelist */; };
-		D1F9A942239048850030ABD9 /* Pods-greenr-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90B239048850030ABD9 /* Pods-greenr-acknowledgements.plist */; };
-		D1F9A943239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90C239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist */; };
-		D1F9A944239048850030ABD9 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = D1F9A90D239048850030ABD9 /* Manifest.lock */; };
 		E0DBFE28CBED5CEED529F090 /* Pods_greenrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1965D8490A957D3C879457B0 /* Pods_greenrTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,45 +64,16 @@
 			remoteGlobalIDString = D1520DF2234EF7E8002DEA5C;
 			remoteInfo = greenr;
 		};
-		D1F9A914239048850030ABD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9B6725B782188F18CB76A740433F14E4;
-			remoteInfo = DropDown;
-		};
-		D1F9A916239048850030ABD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2AFC3EAA0E1790A21BAFB01E9BD8905B;
-			remoteInfo = "Pods-greenr";
-		};
-		D1F9A918239048850030ABD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8EB3D436E0E65EC13A3ECF6BF55329A9;
-			remoteInfo = "Pods-greenr-greenrUITests";
-		};
-		D1F9A91A239048850030ABD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2871F88A43DD4E03791535326D900206;
-			remoteInfo = "Pods-greenrTests";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1965D8490A957D3C879457B0 /* Pods_greenrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greenrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		635C0780DEF277C315C42494 /* Pods-greenr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr.debug.xcconfig"; path = "Target Support Files/Pods-greenr/Pods-greenr.debug.xcconfig"; sourceTree = "<group>"; };
-		8B8E615B652FD3ADDB7C6751 /* Pods-greenrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenrTests.release.xcconfig"; path = "Target Support Files/Pods-greenrTests/Pods-greenrTests.release.xcconfig"; sourceTree = "<group>"; };
+		3019C062CE5F0B84FE910D86 /* Pods-greenr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr.release.xcconfig"; path = "Target Support Files/Pods-greenr/Pods-greenr.release.xcconfig"; sourceTree = "<group>"; };
+		466C89621B4E737E4DD57468 /* Pods-greenrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenrTests.release.xcconfig"; path = "Target Support Files/Pods-greenrTests/Pods-greenrTests.release.xcconfig"; sourceTree = "<group>"; };
+		55738D3224F78A68FB14D851 /* Pods-greenr-greenrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr-greenrUITests.debug.xcconfig"; path = "Target Support Files/Pods-greenr-greenrUITests/Pods-greenr-greenrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1B4BCA7BA9F940EFEC87EE /* Pods-greenr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr.debug.xcconfig"; path = "Target Support Files/Pods-greenr/Pods-greenr.debug.xcconfig"; sourceTree = "<group>"; };
 		9182D516C43C984DA594C1EB /* Pods_greenr_greenrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greenr_greenrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A599B740A082266A1BD204A /* Pods_greenr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greenr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A34D762A00CC42FDAF731004 /* Pods-greenr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr.release.xcconfig"; path = "Target Support Files/Pods-greenr/Pods-greenr.release.xcconfig"; sourceTree = "<group>"; };
-		ADCCE0490EB404F03243B39A /* Pods-greenr-greenrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr-greenrUITests.debug.xcconfig"; path = "Target Support Files/Pods-greenr-greenrUITests/Pods-greenr-greenrUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BCF6A3AECA26264F7C4845C0 /* Pods-greenrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenrTests.debug.xcconfig"; path = "Target Support Files/Pods-greenrTests/Pods-greenrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D101FEC4236AB7CE0045D211 /* PersonalHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHabitsViewController.swift; sourceTree = "<group>"; };
 		D13019BB23663A9E00C54BCE /* ArticleFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFeedTableViewCell.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		D1520DF3234EF7E8002DEA5C /* greenr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,60 +115,10 @@
 		D1E4052923682088002F4A8B /* VolunteerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerTableViewCell.swift; sourceTree = "<group>"; };
 		D1E4052B236821A7002F4A8B /* VolunteerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerTableViewController.swift; sourceTree = "<group>"; };
 		D1E4052F236826A3002F4A8B /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		D1F9A8D2239048850030ABD9 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
-		D1F9A8D4239048850030ABD9 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		D1F9A8D5239048850030ABD9 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
-		D1F9A8D6239048850030ABD9 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		D1F9A8D8239048850030ABD9 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
-		D1F9A8D9239048850030ABD9 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
-		D1F9A8DA239048850030ABD9 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
-		D1F9A8DB239048850030ABD9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D1F9A8DC239048850030ABD9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
-		D1F9A8E2239048850030ABD9 /* DropDown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		D1F9A8E3239048850030ABD9 /* DropDown.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = DropDown.modulemap; sourceTree = "<group>"; };
-		D1F9A8E4239048850030ABD9 /* DropDown-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		D1F9A8E5239048850030ABD9 /* DropDown-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
-		D1F9A8E6239048850030ABD9 /* DropDown.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
-		D1F9A8E7239048850030ABD9 /* DropDown-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
-		D1F9A8E9239048850030ABD9 /* Pods-greenrTests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-greenrTests.modulemap"; sourceTree = "<group>"; };
-		D1F9A8EA239048850030ABD9 /* Pods-greenrTests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-greenrTests-umbrella.h"; sourceTree = "<group>"; };
-		D1F9A8EB239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenrTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1F9A8EC239048850030ABD9 /* Pods-greenrTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenrTests.release.xcconfig"; sourceTree = "<group>"; };
-		D1F9A8ED239048850030ABD9 /* Pods-greenrTests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-greenrTests-dummy.m"; sourceTree = "<group>"; };
-		D1F9A8EE239048850030ABD9 /* Pods-greenrTests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-greenrTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1F9A8EF239048850030ABD9 /* Pods-greenrTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenrTests-Info.plist"; sourceTree = "<group>"; };
-		D1F9A8F0239048850030ABD9 /* Pods-greenrTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenrTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F9A8F2239048850030ABD9 /* Pods-greenr-greenrUITests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenr-greenrUITests-Info.plist"; sourceTree = "<group>"; };
-		D1F9A8F3239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-greenr-greenrUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1F9A8F4239048850030ABD9 /* Pods-greenr-greenrUITests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr-greenrUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F9A8F5239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A8F6239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenr-greenrUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1F9A8F7239048850030ABD9 /* Pods-greenr-greenrUITests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-greenr-greenrUITests.modulemap"; sourceTree = "<group>"; };
-		D1F9A8F8239048850030ABD9 /* Pods-greenr-greenrUITests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr-greenrUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D1F9A8F9239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-greenr-greenrUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D1F9A8FA239048850030ABD9 /* Pods-greenr-greenrUITests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-greenr-greenrUITests-dummy.m"; sourceTree = "<group>"; };
-		D1F9A8FB239048850030ABD9 /* Pods-greenr-greenrUITests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-greenr-greenrUITests-umbrella.h"; sourceTree = "<group>"; };
-		D1F9A8FC239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A8FD239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A8FE239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A900239048850030ABD9 /* Pods-greenr.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F9A901239048850030ABD9 /* Pods-greenr-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-greenr-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1F9A902239048850030ABD9 /* Pods-greenr.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-greenr.modulemap"; sourceTree = "<group>"; };
-		D1F9A903239048850030ABD9 /* Pods-greenr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenr-Info.plist"; sourceTree = "<group>"; };
-		D1F9A904239048850030ABD9 /* Pods-greenr-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-greenr-dummy.m"; sourceTree = "<group>"; };
-		D1F9A905239048850030ABD9 /* Pods-greenr-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-greenr-frameworks.sh"; sourceTree = "<group>"; };
-		D1F9A906239048850030ABD9 /* Pods-greenr-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-greenr-umbrella.h"; sourceTree = "<group>"; };
-		D1F9A907239048850030ABD9 /* Pods-greenr-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A908239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A909239048850030ABD9 /* Pods-greenr.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr.release.xcconfig"; sourceTree = "<group>"; };
-		D1F9A90A239048850030ABD9 /* Pods-greenr-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A90B239048850030ABD9 /* Pods-greenr-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-greenr-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1F9A90C239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-greenr-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
-		D1F9A90D239048850030ABD9 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
 		D1F9A94F2390497C0030ABD9 /* Pods-greenr.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr.release.xcconfig"; sourceTree = "<group>"; };
 		D1F9A9502390497D0030ABD9 /* Pods-greenr.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-greenr.debug.xcconfig"; sourceTree = "<group>"; };
-		E0ACB69C830919AE0A546949 /* Pods-greenr-greenrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr-greenrUITests.release.xcconfig"; path = "Target Support Files/Pods-greenr-greenrUITests/Pods-greenr-greenrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D71966745138C86CC37E75E1 /* Pods-greenr-greenrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenr-greenrUITests.release.xcconfig"; path = "Target Support Files/Pods-greenr-greenrUITests/Pods-greenr-greenrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF8356099CE90D7065CE12BD /* Pods-greenrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greenrTests.debug.xcconfig"; path = "Target Support Files/Pods-greenrTests/Pods-greenrTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,9 +170,9 @@
 				D1520DF4234EF7E8002DEA5C /* Products */,
 				D1035A242366C26500C0069C /* Fonts */,
 				D197A001236918CD0072B6C1 /* Frameworks */,
-				D1F9A8CE239048850030ABD9 /* Pods */,
 				D1F9A9502390497D0030ABD9 /* Pods-greenr.debug.xcconfig */,
 				D1F9A94F2390497C0030ABD9 /* Pods-greenr.release.xcconfig */,
+				EACA2B194B6A3A6BB298E576 /* Pods */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -389,175 +276,18 @@
 			path = greenrTests;
 			sourceTree = "<group>";
 		};
-		D1F9A8CE239048850030ABD9 /* Pods */ = {
+		EACA2B194B6A3A6BB298E576 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1F9A8CF239048850030ABD9 /* DropDown */,
-				D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */,
-				D1F9A8E0239048850030ABD9 /* Target Support Files */,
-				D1F9A90D239048850030ABD9 /* Manifest.lock */,
-				D1F9A90E239048850030ABD9 /* Local Podspecs */,
-				D1F9A90F239048850030ABD9 /* Headers */,
-				635C0780DEF277C315C42494 /* Pods-greenr.debug.xcconfig */,
-				A34D762A00CC42FDAF731004 /* Pods-greenr.release.xcconfig */,
-				ADCCE0490EB404F03243B39A /* Pods-greenr-greenrUITests.debug.xcconfig */,
-				E0ACB69C830919AE0A546949 /* Pods-greenr-greenrUITests.release.xcconfig */,
-				BCF6A3AECA26264F7C4845C0 /* Pods-greenrTests.debug.xcconfig */,
-				8B8E615B652FD3ADDB7C6751 /* Pods-greenrTests.release.xcconfig */,
+				5D1B4BCA7BA9F940EFEC87EE /* Pods-greenr.debug.xcconfig */,
+				3019C062CE5F0B84FE910D86 /* Pods-greenr.release.xcconfig */,
+				55738D3224F78A68FB14D851 /* Pods-greenr-greenrUITests.debug.xcconfig */,
+				D71966745138C86CC37E75E1 /* Pods-greenr-greenrUITests.release.xcconfig */,
+				EF8356099CE90D7065CE12BD /* Pods-greenrTests.debug.xcconfig */,
+				466C89621B4E737E4DD57468 /* Pods-greenrTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D1F9A8CF239048850030ABD9 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8D0239048850030ABD9 /* DropDown */,
-				D1F9A8DB239048850030ABD9 /* LICENSE */,
-				D1F9A8DC239048850030ABD9 /* README.md */,
-			);
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		D1F9A8D0239048850030ABD9 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8D1239048850030ABD9 /* resources */,
-				D1F9A8D3239048850030ABD9 /* helpers */,
-				D1F9A8D7239048850030ABD9 /* src */,
-			);
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		D1F9A8D1239048850030ABD9 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8D2239048850030ABD9 /* DropDownCell.xib */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
-		D1F9A8D3239048850030ABD9 /* helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8D4239048850030ABD9 /* DPDKeyboardListener.swift */,
-				D1F9A8D5239048850030ABD9 /* DPDConstants.swift */,
-				D1F9A8D6239048850030ABD9 /* DPDUIView+Extension.swift */,
-			);
-			path = helpers;
-			sourceTree = "<group>";
-		};
-		D1F9A8D7239048850030ABD9 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8D8239048850030ABD9 /* DropDown.swift */,
-				D1F9A8D9239048850030ABD9 /* DropDownCell.swift */,
-				D1F9A8DA239048850030ABD9 /* DropDown+Appearance.swift */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		D1F9A8DE239048850030ABD9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A915239048850030ABD9 /* DropDown.framework */,
-				D1F9A917239048850030ABD9 /* Pods_greenr.framework */,
-				D1F9A919239048850030ABD9 /* Pods_greenr_greenrUITests.framework */,
-				D1F9A91B239048850030ABD9 /* Pods_greenrTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D1F9A8E0239048850030ABD9 /* Target Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8E1239048850030ABD9 /* DropDown */,
-				D1F9A8E8239048850030ABD9 /* Pods-greenrTests */,
-				D1F9A8F1239048850030ABD9 /* Pods-greenr-greenrUITests */,
-				D1F9A8FF239048850030ABD9 /* Pods-greenr */,
-			);
-			path = "Target Support Files";
-			sourceTree = "<group>";
-		};
-		D1F9A8E1239048850030ABD9 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8E2239048850030ABD9 /* DropDown-Info.plist */,
-				D1F9A8E3239048850030ABD9 /* DropDown.modulemap */,
-				D1F9A8E4239048850030ABD9 /* DropDown-dummy.m */,
-				D1F9A8E5239048850030ABD9 /* DropDown-umbrella.h */,
-				D1F9A8E6239048850030ABD9 /* DropDown.xcconfig */,
-				D1F9A8E7239048850030ABD9 /* DropDown-prefix.pch */,
-			);
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		D1F9A8E8239048850030ABD9 /* Pods-greenrTests */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8E9239048850030ABD9 /* Pods-greenrTests.modulemap */,
-				D1F9A8EA239048850030ABD9 /* Pods-greenrTests-umbrella.h */,
-				D1F9A8EB239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist */,
-				D1F9A8EC239048850030ABD9 /* Pods-greenrTests.release.xcconfig */,
-				D1F9A8ED239048850030ABD9 /* Pods-greenrTests-dummy.m */,
-				D1F9A8EE239048850030ABD9 /* Pods-greenrTests-acknowledgements.markdown */,
-				D1F9A8EF239048850030ABD9 /* Pods-greenrTests-Info.plist */,
-				D1F9A8F0239048850030ABD9 /* Pods-greenrTests.debug.xcconfig */,
-			);
-			path = "Pods-greenrTests";
-			sourceTree = "<group>";
-		};
-		D1F9A8F1239048850030ABD9 /* Pods-greenr-greenrUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A8F2239048850030ABD9 /* Pods-greenr-greenrUITests-Info.plist */,
-				D1F9A8F3239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.markdown */,
-				D1F9A8F4239048850030ABD9 /* Pods-greenr-greenrUITests.debug.xcconfig */,
-				D1F9A8F5239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist */,
-				D1F9A8F6239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.plist */,
-				D1F9A8F7239048850030ABD9 /* Pods-greenr-greenrUITests.modulemap */,
-				D1F9A8F8239048850030ABD9 /* Pods-greenr-greenrUITests.release.xcconfig */,
-				D1F9A8F9239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh */,
-				D1F9A8FA239048850030ABD9 /* Pods-greenr-greenrUITests-dummy.m */,
-				D1F9A8FB239048850030ABD9 /* Pods-greenr-greenrUITests-umbrella.h */,
-				D1F9A8FC239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist */,
-				D1F9A8FD239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist */,
-				D1F9A8FE239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist */,
-			);
-			path = "Pods-greenr-greenrUITests";
-			sourceTree = "<group>";
-		};
-		D1F9A8FF239048850030ABD9 /* Pods-greenr */ = {
-			isa = PBXGroup;
-			children = (
-				D1F9A900239048850030ABD9 /* Pods-greenr.debug.xcconfig */,
-				D1F9A901239048850030ABD9 /* Pods-greenr-acknowledgements.markdown */,
-				D1F9A902239048850030ABD9 /* Pods-greenr.modulemap */,
-				D1F9A903239048850030ABD9 /* Pods-greenr-Info.plist */,
-				D1F9A904239048850030ABD9 /* Pods-greenr-dummy.m */,
-				D1F9A905239048850030ABD9 /* Pods-greenr-frameworks.sh */,
-				D1F9A906239048850030ABD9 /* Pods-greenr-umbrella.h */,
-				D1F9A907239048850030ABD9 /* Pods-greenr-frameworks-Debug-output-files.xcfilelist */,
-				D1F9A908239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist */,
-				D1F9A909239048850030ABD9 /* Pods-greenr.release.xcconfig */,
-				D1F9A90A239048850030ABD9 /* Pods-greenr-frameworks-Release-output-files.xcfilelist */,
-				D1F9A90B239048850030ABD9 /* Pods-greenr-acknowledgements.plist */,
-				D1F9A90C239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist */,
-			);
-			path = "Pods-greenr";
-			sourceTree = "<group>";
-		};
-		D1F9A90E239048850030ABD9 /* Local Podspecs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Local Podspecs";
-			sourceTree = "<group>";
-		};
-		D1F9A90F239048850030ABD9 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -653,12 +383,6 @@
 			mainGroup = D1520DEA234EF7E8002DEA5C;
 			productRefGroup = D1520DF4234EF7E8002DEA5C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D1F9A8DE239048850030ABD9 /* Products */;
-					ProjectRef = D1F9A8DD239048850030ABD9 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D1520DF2234EF7E8002DEA5C /* greenr */,
@@ -668,37 +392,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D1F9A915239048850030ABD9 /* DropDown.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DropDown.framework;
-			remoteRef = D1F9A914239048850030ABD9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1F9A917239048850030ABD9 /* Pods_greenr.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_greenr.framework;
-			remoteRef = D1F9A916239048850030ABD9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1F9A919239048850030ABD9 /* Pods_greenr_greenrUITests.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_greenr_greenrUITests.framework;
-			remoteRef = D1F9A918239048850030ABD9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D1F9A91B239048850030ABD9 /* Pods_greenrTests.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_greenrTests.framework;
-			remoteRef = D1F9A91A239048850030ABD9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		D1520DF1234EF7E8002DEA5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -706,38 +399,14 @@
 			files = (
 				D1357595236BC0A900DBCAFF /* Poppins-Light.ttf in Resources */,
 				D1520E05234EF7EA002DEA5C /* LaunchScreen.storyboard in Resources */,
-				D1F9A928239048850030ABD9 /* Pods-greenrTests-acknowledgements.plist in Resources */,
 				D1357598236BC0B000DBCAFF /* Poppins-SemiBold.ttf in Resources */,
-				D1F9A93D239048850030ABD9 /* Pods-greenr-frameworks.sh in Resources */,
-				D1F9A937239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-input-files.xcfilelist in Resources */,
-				D1F9A92C239048850030ABD9 /* Pods-greenrTests-Info.plist in Resources */,
-				D1F9A925239048850030ABD9 /* DropDown-Info.plist in Resources */,
 				D1357594236BC0A700DBCAFF /* Poppins-Thin.ttf in Resources */,
-				D1F9A924239048850030ABD9 /* README.md in Resources */,
-				D1F9A931239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-output-files.xcfilelist in Resources */,
 				D1520E02234EF7EA002DEA5C /* Assets.xcassets in Resources */,
 				D158A3ED23557DC400387265 /* HabitTableViewCell.xib in Resources */,
-				D1F9A923239048850030ABD9 /* LICENSE in Resources */,
-				D1F9A941239048850030ABD9 /* Pods-greenr-frameworks-Release-output-files.xcfilelist in Resources */,
-				D1F9A93B239048850030ABD9 /* Pods-greenr-Info.plist in Resources */,
-				D1F9A938239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Debug-output-files.xcfilelist in Resources */,
-				D1F9A92E239048850030ABD9 /* Pods-greenr-greenrUITests-Info.plist in Resources */,
-				D1F9A936239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks-Release-input-files.xcfilelist in Resources */,
-				D1F9A92F239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.markdown in Resources */,
-				D1F9A93A239048850030ABD9 /* Pods-greenr-acknowledgements.markdown in Resources */,
 				D1357599236BC0B100DBCAFF /* Poppins-Bold.ttf in Resources */,
-				D1F9A91C239048850030ABD9 /* DropDownCell.xib in Resources */,
-				D1F9A942239048850030ABD9 /* Pods-greenr-acknowledgements.plist in Resources */,
-				D1F9A932239048850030ABD9 /* Pods-greenr-greenrUITests-acknowledgements.plist in Resources */,
-				D1F9A92B239048850030ABD9 /* Pods-greenrTests-acknowledgements.markdown in Resources */,
 				D1357596236BC0AC00DBCAFF /* Poppins-Regular.ttf in Resources */,
 				D1357597236BC0AE00DBCAFF /* Poppins-Medium.ttf in Resources */,
 				D1CBD1732351B7750061C815 /* Main.storyboard in Resources */,
-				D1F9A934239048850030ABD9 /* Pods-greenr-greenrUITests-frameworks.sh in Resources */,
-				D1F9A93F239048850030ABD9 /* Pods-greenr-frameworks-Release-input-files.xcfilelist in Resources */,
-				D1F9A943239048850030ABD9 /* Pods-greenr-frameworks-Debug-input-files.xcfilelist in Resources */,
-				D1F9A93E239048850030ABD9 /* Pods-greenr-frameworks-Debug-output-files.xcfilelist in Resources */,
-				D1F9A944239048850030ABD9 /* Manifest.lock in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,18 +502,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D197A00B236AB0610072B6C1 /* PersonalHabitsTableViewController.swift in Sources */,
-				D1F9A91F239048850030ABD9 /* DPDUIView+Extension.swift in Sources */,
-				D1F9A922239048850030ABD9 /* DropDown+Appearance.swift in Sources */,
 				D1CBD1A82353B5950061C815 /* HabitItem.swift in Sources */,
 				D158A3EF2355898E00387265 /* PersistenceLayer.swift in Sources */,
-				D1F9A91D239048850030ABD9 /* DPDKeyboardListener.swift in Sources */,
 				D158A3F32355BB2700387265 /* ArticleFeedViewController.swift in Sources */,
 				D1520E32234EF859002DEA5C /* HabitsTableViewController.swift in Sources */,
 				D1CBD1AC2353E9360061C815 /* HabitDetailViewController.swift in Sources */,
-				D1F9A926239048850030ABD9 /* DropDown-dummy.m in Sources */,
-				D1F9A920239048850030ABD9 /* DropDown.swift in Sources */,
 				D1CBD1832353AB110061C815 /* greenr.xcdatamodeld in Sources */,
-				D1F9A921239048850030ABD9 /* DropDownCell.swift in Sources */,
 				D187EE48236BBAA3002A4000 /* UITabBarMainController.swift in Sources */,
 				D1CBD1B0235464EA0061C815 /* DateExtensions.swift in Sources */,
 				D1CC9661235C2AFF00FB3F62 /* MapURLViewController.swift in Sources */,
@@ -852,17 +515,13 @@
 				D1E40530236826A3002F4A8B /* LocationInformationViewController.swift in Sources */,
 				D158A3FB2356B31E00387265 /* XMLParseManager.swift in Sources */,
 				D1E4052A23682088002F4A8B /* VolunteerTableViewCell.swift in Sources */,
-				D1F9A935239048850030ABD9 /* Pods-greenr-greenrUITests-dummy.m in Sources */,
 				D1CBD1AE2353F34B0061C815 /* Habit.swift in Sources */,
-				D1F9A93C239048850030ABD9 /* Pods-greenr-dummy.m in Sources */,
 				D158A3F92356B2DB00387265 /* FeedItemViewController.swift in Sources */,
 				D1520DF7234EF7E8002DEA5C /* AppDelegate.swift in Sources */,
-				D1F9A91E239048850030ABD9 /* DPDConstants.swift in Sources */,
 				D158A3EC23557DC400387265 /* HabitTableViewCell.swift in Sources */,
 				D197A00D236AB0B10072B6C1 /* PersonalPersistenceLayer.swift in Sources */,
 				D1E4052C236821A7002F4A8B /* VolunteerTableViewController.swift in Sources */,
 				D1520DF9234EF7E8002DEA5C /* SceneDelegate.swift in Sources */,
-				D1F9A92A239048850030ABD9 /* Pods-greenrTests-dummy.m in Sources */,
 				D13019BC23663A9E00C54BCE /* ArticleFeedTableViewCell.swift in Sources */,
 				D158A3F1235595A100387265 /* AddHabitViewController.swift in Sources */,
 			);
@@ -1027,7 +686,7 @@
 		};
 		D1520E20234EF7EA002DEA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 635C0780DEF277C315C42494 /* Pods-greenr.debug.xcconfig */;
+			baseConfigurationReference = 5D1B4BCA7BA9F940EFEC87EE /* Pods-greenr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1047,7 +706,7 @@
 		};
 		D1520E21234EF7EA002DEA5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A34D762A00CC42FDAF731004 /* Pods-greenr.release.xcconfig */;
+			baseConfigurationReference = 3019C062CE5F0B84FE910D86 /* Pods-greenr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1067,7 +726,7 @@
 		};
 		D1520E23234EF7EA002DEA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCF6A3AECA26264F7C4845C0 /* Pods-greenrTests.debug.xcconfig */;
+			baseConfigurationReference = EF8356099CE90D7065CE12BD /* Pods-greenrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1089,7 +748,7 @@
 		};
 		D1520E24234EF7EA002DEA5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B8E615B652FD3ADDB7C6751 /* Pods-greenrTests.release.xcconfig */;
+			baseConfigurationReference = 466C89621B4E737E4DD57468 /* Pods-greenrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1111,7 +770,7 @@
 		};
 		D1520E26234EF7EA002DEA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADCCE0490EB404F03243B39A /* Pods-greenr-greenrUITests.debug.xcconfig */;
+			baseConfigurationReference = 55738D3224F78A68FB14D851 /* Pods-greenr-greenrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1131,7 +790,7 @@
 		};
 		D1520E27234EF7EA002DEA5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0ACB69C830919AE0A546949 /* Pods-greenr-greenrUITests.release.xcconfig */;
+			baseConfigurationReference = D71966745138C86CC37E75E1 /* Pods-greenr-greenrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
