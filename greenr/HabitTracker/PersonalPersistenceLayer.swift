@@ -14,9 +14,10 @@ struct PersonalPersistenceLayer {
     private(set) var habits: [Habit] = [
     ]
     
+    let userDefaults = UserDefaults.standard
+    var habitTitles: Array<String> = []
+    
     // Stores titles of habits for easy access
-    private(set) var habitTitles: [String] = [
-    ]
     
     private static let userDefaultsHabitsKeyValue = "PERSONAL_HABITS_ARRAY"
     
@@ -30,7 +31,8 @@ struct PersonalPersistenceLayer {
             let habitData = userDefaults.data(forKey: PersonalPersistenceLayer.userDefaultsHabitsKeyValue),
             let habits = try? JSONDecoder().decode([Habit].self, from: habitData) else {
                 return
-        }
+            }
+        habitTitles = userDefaults.stringArray(forKey: "habitTitles")!
         self.habits = habits
     }
     
@@ -39,6 +41,8 @@ struct PersonalPersistenceLayer {
         let newHabit = Habit(title: name)
         self.habits.append(newHabit)
         self.habitTitles.append(name)
+        userDefaults.set(habitTitles, forKey: "habitTitles")
+        print("HII-", habitTitles)
         self.saveHabits()
         return newHabit
     }
@@ -55,7 +59,9 @@ struct PersonalPersistenceLayer {
     // Deletes habits
     mutating func delete(_ habitIndex: Int) {
         self.habits.remove(at: habitIndex)
+        print("HII", habitTitles)
         self.habitTitles.remove(at: habitIndex)
+        userDefaults.set(habitTitles, forKey: "habitTitles")
         self.saveHabits()
     }
     
