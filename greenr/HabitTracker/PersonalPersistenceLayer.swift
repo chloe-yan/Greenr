@@ -15,7 +15,7 @@ struct PersonalPersistenceLayer {
     ]
     
     let userDefaults = UserDefaults.standard
-    var habitTitles: Array<String> = []
+    var habitTitles: Array<String> = [""]
     
     // Stores titles of habits for easy access
     
@@ -27,6 +27,7 @@ struct PersonalPersistenceLayer {
     
     private mutating func loadHabits() {
         let userDefaults = UserDefaults.standard
+        userDefaults.set(habitTitles, forKey: "habitTitles")
         guard
             let habitData = userDefaults.data(forKey: PersonalPersistenceLayer.userDefaultsHabitsKeyValue),
             let habits = try? JSONDecoder().decode([Habit].self, from: habitData) else {
